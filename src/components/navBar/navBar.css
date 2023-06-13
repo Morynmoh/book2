@@ -1,0 +1,57 @@
+.navBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3c6382;
+    padding: 0 0;
+    margin: 0 0;
+    font-family: "Arial Nova Cond", Arial, sans-serif;
+    /* color: orange; */
+
+  }
+  
+  .img {
+    flex-shrink: 0;
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 20px; /* Adjust the margin as needed */
+  }
+  
+  .navbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 25px;
+    
+  }
+  
+  .nav-links li {
+    margin-left: 5rem; /* Use margin-left instead of margin-right */
+  }
+  
+  .nav-links li:first-child {
+    margin-left: 0; /* Reset margin-left for the first item */
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    /* color: #333; */
+    transition: color 0.3s;
+    color: orange;
+  }
+  
+  .nav-links a:hover {
+    color: #f00;
+    text-decoration: underline;
+  }
+  
+  .nav-links .active {
+    font-weight: bold;
+  }
+  

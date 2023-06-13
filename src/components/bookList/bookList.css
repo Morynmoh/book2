@@ -1,0 +1,46 @@
+.book-list-container {
+  margin: 20px;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: -15px; /* Adjusted margin */
+  margin-left: -15px; /* Adjusted margin */
+}
+
+.book-list-card {
+  flex: 0 0 calc(25% - 15px); /* Adjusted flex value and margin */
+  margin-bottom: 20px;
+  background-color: #e4dce2;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.book-list-image {
+  width: 100%;
+  height: auto;
+  max-height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.book-list-details {
+  text-align: center;
+}
+
+.book-list-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.book-list-subtitle {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.book-list-description {
+  font-size: 14px;
+  color: #666;
+}

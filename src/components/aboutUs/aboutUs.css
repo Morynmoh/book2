@@ -1,0 +1,47 @@
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(228, 228, 228);
+  font-family: "Arial Nova Cond", Arial, sans-serif;
+}
+.grid {
+  flex-basis: calc(33.33% - 20px);
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+h2 {
+  background-color: rgb(228, 228, 228);
+  margin: auto;
+}
+.personContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* .aboutUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.personContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+} */
+
+.personImage:hover {
+  transform: scale(1.2);
+}
